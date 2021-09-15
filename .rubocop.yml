@@ -1,0 +1,15 @@
+AllCops:
+  TargetRubyVersion: 3.0.2
+  NewCops: enable
+  Exclude:
+    - db/**
+    - config/**
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
